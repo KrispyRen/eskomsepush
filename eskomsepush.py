@@ -19,7 +19,6 @@ class EskomSePush:
         try:
             response = requests.get(url=query_url, headers=self.headers, params=payload)
             if response.status_code == 200:
-                print('successful')
                 return response.json()
             if response.status_code == 400:
                 print('Bad Request')
