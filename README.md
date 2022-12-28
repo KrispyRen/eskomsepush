@@ -7,12 +7,12 @@ I am a beginner programmer and this is my first code commit. If you have better 
 
 ## Functions
 
-- `get_status()` **get the National loadshedding schedule
-- `get_allowance()` **check your credits
-- `search_areas()` **search area using text search
-- `get_area_information` **get the area information based on the `area_id` (use `search_areas()` to get the `area_id`
-- `get_areas_nearby` **search for areas nearby (longitude and latitude as input)
-- `get_topics_nearby` **find topics created by users nearby (longitude and latitude as input)
+- `get_status()` **get the National loadshedding schedule**
+- `get_allowance()` **check your credits**
+- `search_areas()` **search area using text search**
+- `get_area_information` **get the area information based on the `area_id` (use `search_areas()` to get the `area_id`**
+- `get_areas_nearby` **search for areas nearby (longitude and latitude as input)**
+- `get_topics_nearby` **find topics created by users nearby (longitude and latitude as input)**
 
 ## Resources 
 
