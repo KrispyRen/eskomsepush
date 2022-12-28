@@ -15,7 +15,9 @@ I am a beginner programmer and this is my first code commit. If you have better 
 - `get_topics_nearby` **find topics created by users nearby (longitude and latitude as input)**
 
 ## Additional notes
-Remember to obtain your `API_KEY` by [regisering](https://eskomsepush.gumroad.com/l/api)
+- Remember to obtain your `API_KEY` by [regisering](https://eskomsepush.gumroad.com/l/api)
+- Place your `API_KEY` in a .env file 
+- Install all the dependancies from the requirements.txt file
 
 ## Resources 
 EskomSePush API [documentation](https://documenter.getpostman.com/view/1296288/UzQuNk3E#intro)
