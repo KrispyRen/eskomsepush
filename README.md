@@ -4,7 +4,7 @@
 Python wrapper for the EskomSePush API
 
 ## Disclaimer
-I am a beginner programmer and this is my first code commit. If you have better ways or find bugs in my code, please feel free to fix :)
+I am a beginner programmer and this is my first code commit. If you have better ways of coding it or find bugs in my code, please feel free to fix :)
 
 ## Functions
 - `get_status()` **get the National loadshedding schedule**
