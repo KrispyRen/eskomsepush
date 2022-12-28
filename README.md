@@ -14,7 +14,7 @@ I am a beginner programmer and this is my first code commit. If you have better 
 - `get_areas_nearby` **search for areas nearby (longitude and latitude as input)**
 - `get_topics_nearby` **find topics created by users nearby (longitude and latitude as input)**
 
-## Incomplete
+## version 1.1 (work in progress)
 
 - Add logging 
 
@@ -22,7 +22,7 @@ I am a beginner programmer and this is my first code commit. If you have better 
 - Remember to obtain your `API_KEY` by [regisering](https://eskomsepush.gumroad.com/l/api)
 - Put your `API_KEY` in a .env file 
 - Add `BASE_URL = "https://developer.sepush.co.za/business/2.0"` in the .env file
-- Install all the dependancies from the requirements.txt file
+- Install all the dependencies from the requirements.txt file
 - Create app.py (mine is ignored in the .gitignore file) to create an object of the class EskomSePush
 
 ## Resources 
