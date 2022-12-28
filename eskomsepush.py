@@ -41,9 +41,14 @@ class EskomSePush:
         payload = {"text": area_search}
         return self.make_request("/areas_search", payload=payload)
     
-    #get the area information based on the area_id retrieved from search_areas()
-    def get_area_information(self) -> dict:
+    #get the test area information based on the area_id. test can be current or future
+    def get_area_information_test(self) -> dict:
         payload = {"id": self.area_id, "test" : "current"}
+        return self.make_request("/area", payload=payload)
+    
+    #get the test area information based on the area_id retrieved from search_areas()
+    def get_area_information(self) -> dict:
+        payload = {"id": self.area_id}
         return self.make_request("/area", payload=payload)
 
     #check how many credits you have and limit
