@@ -14,6 +14,10 @@ I am a beginner programmer and this is my first code commit. If you have better 
 - `get_areas_nearby` **search for areas nearby (longitude and latitude as input)**
 - `get_topics_nearby` **find topics created by users nearby (longitude and latitude as input)**
 
+## Incomplete
+
+- Add logging 
+
 ## Additional notes
 - Remember to obtain your `API_KEY` by [regisering](https://eskomsepush.gumroad.com/l/api)
 - Put your `API_KEY` in a .env file 
