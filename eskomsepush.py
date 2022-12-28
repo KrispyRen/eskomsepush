@@ -28,11 +28,11 @@ class EskomSePush:
             if response.status_code == 404:
                 print('Not Found')
             if response.status_code == 429:
-                print('Too many requests - Slow down, this is Africa')
+                print('Too many requests')
             if response.status_code == 500:
                 print('Server side error')
             else:
-                print(f'eish, response status code is {response.status_code}')
+                print(f'Response status code is {response.status_code}')
         except requests.RequestException as e:
             # Exception occurred while making the request
             print(f'Request failed: {e}')
