@@ -16,7 +16,8 @@ I am a beginner programmer and this is my first code commit. If you have better 
 
 ## Additional notes
 - Remember to obtain your `API_KEY` by [regisering](https://eskomsepush.gumroad.com/l/api)
-- Place your `API_KEY` in a .env file 
+- Put your `API_KEY` in a .env file 
+- Add `BASE_URL = "https://developer.sepush.co.za/business/2.0"` in the .env file
 - Install all the dependancies from the requirements.txt file
 - Create app.py (mine is ignored in the .gitignore file) to create an object of the class EskomSePush
 
