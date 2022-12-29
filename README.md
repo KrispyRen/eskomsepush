@@ -1,7 +1,7 @@
 # eskomsepush
 
 ## Description
-Python wrapper for the EskomSePush API
+Python wrapper for the EskomSePush API to get the Eskom Loadshedding schedule for your area
 
 ## Disclaimer
 I am a beginner programmer and this is my first code commit. If you have better ways of coding it or find bugs in my code, please feel free to fix :)
